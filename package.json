@@ -9,7 +9,10 @@
     "type": "git",
     "url": "https://stash.marviq.com/scm/MAD/all.git"
   },
-  "dependencies": {
+  "peerDependencies": {
+    "madlib-console": "~0.1.0",
+    "madlib-xml-objectifier": "~0.1.0",
+    "madlib-settings": "~0.1.0"
   },
   "keywords": [
     "madlib"
