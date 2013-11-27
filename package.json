@@ -10,8 +10,15 @@
     "url": "https://stash.marviq.com/scm/MAD/all.git"
   },
   "peerDependencies": {
+    "madlib-browser-cookie": "~0.1.0",
     "madlib-console": "~0.1.0",
+    "madlib-promise-poll": "~0.1.0",
+    "madlib-promise-queue": "~0.1.0",
+    "madlib-promise-throttle": "~0.1.0",
+    "madlib-settings": "~0.1.1",
     "madlib-xml-objectifier": "~0.1.0",
+    "madlib-xml-parse": "~0.1.0",
+    "madlib-xml-serialize": "~0.1.0",
     "madlib-settings": "~0.1.0"
   },
   "keywords": [
@@ -22,5 +29,7 @@
     "email": "mark.doeswijk@marviq.com",
     "url": "https://github.com/Marviq"
   },
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+  }
 }
