@@ -12,6 +12,7 @@
   "peerDependencies": {
     "madlib-browser-cookie": "~0.1.0",
     "madlib-console": "~0.1.0",
+    "madlib-generic-cache": "~0.1.1",
     "madlib-hostmapping": "~0.1.0",
     "madlib-object-utils": "~0.1.0",
     "madlib-promise-poll": "~0.1.0",
@@ -19,6 +20,10 @@
     "madlib-promise-throttle": "~0.1.0",
     "madlib-settings": "~0.1.0",
     "madlib-storage-simple": "~0.1.0",
+    "madlib-xhr-browser": "~0.1.0",
+    "madlib-xhr-browser-xdm": "~0.1.0",
+    "madlib-xhr-generic": "~0.1.1",
+    "madlib-xhr-node": "~0.1.0",
     "madlib-xml-objectifier": "~0.1.0",
     "madlib-xml-parse": "~0.1.0",
     "madlib-xml-serialize": "~0.1.0"
@@ -32,5 +37,6 @@
     "url": "https://github.com/Marviq"
   },
   "license": "BSD",
-  "dependencies": {}
+  "dependencies": {
+  }
 }
