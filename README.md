@@ -1,4 +1,4 @@
-### madlib-all
+# madlib-all
 
 This is a meta package that will include all the Marviq Application Development library modules. It exists purely as a convenience module to try everything in one go. For normal development you would more likely only npm install the modules you actually need.
 
