@@ -1,9 +1,8 @@
 # madlib-all
-
 This is a meta package that will include all the Marviq Application Development library modules. It exists purely as a convenience module to try everything in one go. For normal development you would more likely only npm install the modules you actually need.
 
 
-## acknowledgements
+## acknowledgments
 The Marviq Application Development library (aka madLib) was developed by me when I was working at Marviq. They were cool enough to let me take the code with me when I decided to start my own company. We decided to open source it for our mutual benefit and we are still contributing to each others work.
 
 
@@ -20,4 +19,4 @@ Currently madLib is focused on the following platforms:
 ## installation
 npm install madlib-all
 
-All the madlib modules are declared as peer dependencies and will be installed alongside each other inside your node_modules folder.
+All the madLib modules are declared as peer dependencies and will be installed alongside each other inside your node_modules folder.
