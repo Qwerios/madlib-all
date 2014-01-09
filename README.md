@@ -3,7 +3,7 @@ This is a meta package that will include all the Marviq Application Development 
 
 
 ## acknowledgments
-The Marviq Application Development library (aka madLib) was developed by me when I was working at Marviq. They were cool enough to let me take the code with me when I decided to start my own company. We decided to open source it for our mutual benefit and we are still contributing to each others work.
+The Marviq Application Development library (aka madLib) was developed by me when I was working at Marviq. They were cool enough to let me publish the code on my own. We decided to open source it for our mutual benefit and we are still contributing to each others work.
 
 
 ## philosophy
