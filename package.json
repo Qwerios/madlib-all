@@ -23,8 +23,7 @@
     "madlib-xhr": "~0.1.0",
     "madlib-xhr-xdm": "~0.1.0",
     "madlib-xml-objectifier": "~0.1.0",
-    "madlib-xml-parse": "~0.1.0",
-    "madlib-xml-serialize": "~0.1.0"
+    "madlib-xmldom": "~0.1.0"
   },
   "keywords": [
     "madlib"
