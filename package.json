@@ -20,10 +20,8 @@
     "madlib-promise-throttle": "~0.1.0",
     "madlib-settings": "~0.1.0",
     "madlib-storage-simple": "~0.1.0",
-    "madlib-xhr-browser": "~0.1.0",
-    "madlib-xhr-browser-xdm": "~0.1.0",
-    "madlib-xhr-generic": "~0.1.1",
-    "madlib-xhr-node": "~0.1.0",
+    "madlib-xhr": "~0.1.0",
+    "madlib-xhr-xdm": "~0.1.0",
     "madlib-xml-objectifier": "~0.1.0",
     "madlib-xml-parse": "~0.1.0",
     "madlib-xml-serialize": "~0.1.0"
