@@ -1,6 +1,6 @@
 {
   "name": "madlib-all",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Meta package that includes all madlib modules",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
