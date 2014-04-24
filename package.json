@@ -3,14 +3,24 @@
   "version": "0.1.6",
   "description": "Meta package that includes all madlib modules",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Warning: no tests specified\" && exit 0"
+  },
+  "author": {
+    "name": "Mark Doeswijk",
+    "email": "mdoeswijk@gmail.com",
+    "url": "https://github.com/Qwerios"
   },
   "repository": {
     "type": "git",
-    "url": "https://stash.marviq.com/scm/MAD/all.git"
+    "url": "https://github.com/Qwerios/madlib-all.git"
+  },
+  "scripts": {
+    "test": "command -v grunt >/dev/null 2>&1 && grunt test || { echo >&2 'Grunt is not installed'; }",
+    "prepublish": "command -v grunt >/dev/null 2>&1 && grunt || { echo >&2 'Grunt is not installed'; }"
   },
   "peerDependencies": {
     "madlib-browser-cookie": "~0.1.0",
+    "madlib-browser-querystring": "~0.1.0",
     "madlib-console": "~0.1.0",
     "madlib-generic-cache": "~0.1.1",
     "madlib-hostmapping": "~0.1.0",
@@ -26,14 +36,13 @@
     "madlib-xml-deobjectifier": "~0.1.0",
     "madlib-xmldom": "~0.1.0"
   },
+  "dependencies": {},
   "keywords": [
     "madlib"
   ],
-  "author": {
-    "name": "Mark Doeswijk",
-    "email": "mark.doeswijk@marviq.com",
-    "url": "https://github.com/Marviq"
-  },
-  "license": "BSD",
-  "dependencies": {}
+  "licenses": [
+    {
+      "type": "BSD"
+    }
+  ]
 }
